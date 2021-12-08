@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.navbar{
+    background-color: rgb(61, 61, 61);
+padding: 10px;
+padding-left:10px ;
+display:flex;
+position: sticky;
+top:0;
+}
+.navbar ul{
+display:flex;
+text-decoration: none;
+list-style: none;
+margin:auto;
+}
+.navbar li a{
+text-decoration: none;
+font-size:40px;
+padding:27px;
+letter-spacing: 1px;
+color:rgb(252, 252, 252);
+font-family: 'Boogaloo', cursive;
+}
+
+#logo{
+    display:flex;
+    align-items: center;
+    margin: 0px -5px;
+}
+#logo P{
+    color: white;
+    font-family: 'Boogaloo', cursive;
+   padding-left: 25px;
+     font-size:35px;
+}
+#logo img{
+    height:60px;
+    width:62px;
+    border-radius:50px;
+    
+}
+.navbar li a:hover:not(.active){
+color:rgb(224, 64, 224);
+}
+
+.navbar li a.active{
+    color:rgb(235, 27, 12);
+    }
+    
+
+ .bg1{
+    width:100%;
+    position:absolute;
+    z-index:-1;
+    opacity:1; 
+}
+ .bg1 img{
+    height:680px;
+    width:100%;
+}
+#introsection{
+    color:rgb(245, 245, 245);
+    height:680px;
+    font-size: 90px;
+    font-family: 'Asap', sans-serif;
+ /*  background-color: black; 
+     background:center/cover no-repeat url("/static/img/bg1.jpg");*/
+}
+#introsection h1{
+    padding-left: 320px;
+    padding-top: 165px;
+}
+#introsection h2{
+    padding:0px 320px;
+    word-spacing: 15px;
+}
+#introsection h3{
+    font-size: 40px;
+    padding-left: 320px;
+    color:rgb(255, 255, 255);
+}
+#sponsorssection{
+    
+  /*  background-color: rgb(211, 191, 211); */
+   padding-bottom: 30px;
+}
+
+
+.bg{
+    width:100%;
+    position:absolute;
+    z-index:-1;
+    opacity: 0.4; 
+   
+}
+
+.bg img{
+    height:454px;
+    width:100%;
+}
+#sponsorssection h3{
+    text-align: center;
+    font-size:55px;
+    padding-top: 30px;
+    word-spacing: 7px;
+    font-family: 'Fredoka One', cursive;
+}
+
+hr{
+    border:3px solid black;
+    margin:2px 500px;
+    margin-bottom:30px ;
+    
+}
+#sponsorssection h1{
+    text-align: center;
+    font-size:40px;
+    color: rgb(226, 17, 17);
+    font-family: 'Merienda', cursive;
+}
+#footer{
+    height:68px;
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    font-size: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+}
+
+
+
+/*    resposive website */
+@media (min-width:0px) and (max-width : 1200px){
+   
+.navbar{
+    background-color: rgb(39, 42, 49);
+   display:flex;
+   flex-direction: column;
+   width:94.5%;
+   height: 90px;
+}
+
+.navbar li a{
+    font-size:18px;
+   padding:7px;    
+    }
+
+    #logo P{
+       padding-left: 25px;
+         font-size:25px;
+    }
+    #logo img{
+        height:50px;
+        width:52px;
+        border-radius:50px;
+        margin-left:75px ;
+    }
+    .bg1 img{
+        height:300px;
+        width:100%;
+    }
+    #introsection{
+        color:rgb(245, 245, 245);
+        height:300px;
+        font-size: 32px;
+    }
+    #introsection h1{
+        padding-left: 35px;
+        padding-top: 95px;
+    }
+    #introsection h2{
+        padding:0px 35px;
+        word-spacing: 4px;
+    }
+    #introsection h3{
+        font-size: 13px;
+        padding-left: 35px;
+      
+    }
+    
+    .bg img{
+        height:350px;
+        width:100%;
+    }
+    #sponsorssection h3{
+        text-align: center;
+        font-size:40px;  
+    }
+    
+    #sponsorssection h1{
+        text-align: left;
+        font-size:18px;
+    }
+
+    #footer{
+        height:55px;  
+        font-size: 20px;   
+    }
+}

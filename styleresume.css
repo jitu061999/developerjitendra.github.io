@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    background-color: rgb(212, 252, 252);
+    height: 1900px;
+    margin: 30px 300px;
+    border:3px solid red;
+    border-radius: 50px;
+}
+
+.container:hover{
+    border:5px solid red;
+    border-radius:50px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    word-spacing: 7px;
+    font-family: 'Permanent Marker', cursive
+}
+
+h2{
+    padding: 5px 20px;
+    word-spacing: 7px;
+
+    font-family: 'Acme', sans-serif;
+}
+h3{
+padding:5px 20px;
+font-size: 35px;
+word-spacing: 7px;
+
+font-family: 'Acme', sans-serif;
+}
+
+hr{
+    
+    color:black;
+    border:2px solid rgb(5, 5, 5);
+    margin:20px 0px;
+}
+.hr1 hr{
+   background-color:black;
+    border:2px solid rgb(5, 5, 5);
+    margin:0px  360px;
+    margin-bottom: 15px;
+}
+table, th, td {
+    border: 2px solid black;
+    margin:10px 30px;
+    word-spacing: 7px;
+
+    font-family: 'Acme', sans-serif;
+  }
+
+  th{
+      text-align:center;
+      padding:10px;
+      font-size: 30px;
+  }
+  td{
+      text-align: center;
+      padding:10px;
+      font-size: 27px;
+  }
+
+
+  @media (min-width:0px) and (max-width : 1418px){
+   
+
+    .container{
+       
+        height: 1370px;
+        margin: 20px 20px; 
+        margin-left: 15px;
+        padding: 0px;
+        
+    }
+    h1{
+        font-size:31px;
+    }
+
+    h2{
+        font-size: 13px;
+    }
+    h3{
+        font-size:20px;
+    }
+    th, td{
+        font-size:6px;
+    }
+
+    .hr1 hr{
+         margin:5px  80px;
+         
+     }
+}

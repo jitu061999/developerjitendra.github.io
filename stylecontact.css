@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+body{
+     background:white;
+    
+}
+
+
+h1{
+    text-align: center;
+    color:black;
+    font-size: 50px;
+    padding-top: 5px;
+    font-family: 'Fredoka One', cursive;
+   
+}
+
+
+
+
+
+
+hr{
+    margin: 0px 400px;  
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  height:476px;
+  background-color: beige;
+  
+}
+
+#insta img{
+    height:100px;
+    width:100px;
+    margin-right: 40px;
+    
+}
+
+#face img{
+    height: 116px;
+    width: 120px;
+    margin-right: 25px;
+}
+
+
+#youtube img{
+    height:100px;
+    width:150px;
+    margin-right: 25px;
+}
+
+#linkedin img{
+    height: 85px;
+    width: 90px;
+    margin-right: 50px;
+}
+#twitter img{
+    height:107px;
+    width:110px;
+}
+
+
+/*    resposive website */
+@media (min-width:0px) and (max-width : 1233px){
+ 
+
+
+h1{
+    font-size: 20px;
+    padding-left: 7px;
+    padding-top: 10px;
+}
+
+hr{
+    width: 75%;
+    margin: 8px 45px;
+    padding-bottom: 3px;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+  height:1050px;
+  width:100%;
+}
+
+
+#insta img{
+    height:171px;
+    width:180px;  
+   padding-right: 5px;
+}
+
+
+#face img{
+    height: 200px;
+    width: 216px;
+    padding-right: 25px;
+}
+
+
+#youtube img{
+    height: 180px;
+    width: 300px;
+  
+}
+#linkedin img{
+    height: 148px;
+    width: 160px;
+   padding-top:30px;
+   padding-left: 20px;
+}
+#twitter img{
+    height: 225px;
+    width: 223px;
+    padding-top:30px;
+    padding-right: 20px;
+}
+
+}
