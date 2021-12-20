@@ -97,42 +97,44 @@ hr{
 .container{
     display:flex;
     flex-direction: column;
-  height:1050px;
+  height:610px;
   width:100%;
-   background-color: white;
+   background-color: rgb(253,237,237);
 }
 
 
 #insta img{
-    height:171px;
-    width:180px;  
-   padding-right: 5px;
+      height:101px;
+    width:100px;  
+   padding-left: 26px;
 }
 
 
 #face img{
-    height: 200px;
-    width: 216px;
-    padding-right: 25px;
+height: 100px;
+    width: 116px;
+    padding-left: 13px;
 }
 
 
 #youtube img{
-    height: 180px;
-    width: 300px;
+   height: 95px;
+    width: 160px;
+    padding-left: 18px;
   
 }
 #linkedin img{
-    height: 148px;
-    width: 160px;
-   padding-top:30px;
-   padding-left: 20px;
+    height: 80px;
+    width: 90px;
+    padding-top: 15px;
+    padding-left: 33px;
 }
 #twitter img{
-    height: 225px;
-    width: 223px;
-    padding-top:30px;
-    padding-right: 20px;
+       height: 121px;
+    width: 128px;
+    padding-top: 15px;
+    /* padding-left: 0px; */
+    padding-right: 11px;
 }
 
 }
